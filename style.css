@@ -40,7 +40,7 @@ body {
 }
 
 #heading h1 {
-    text-align: right;
+    text-align: center;
     color: white;
     font-size: 30px;
     font-weight: 700;
@@ -80,12 +80,12 @@ input[type="text"] {
     height: 50px;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(78, 77, 77);
     font-size: 24px;
     border: 0;
     outline: 0;
     padding: 20px;
-    text-align: right;
+    text-align: center;
 
 
 }
