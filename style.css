@@ -1,0 +1,109 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow: hidden;
+
+    background-image: url(./img/lot.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+
+}
+
+.main_container {
+    margin: 80px auto;
+    border-radius: 15px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #191b1a;
+    -webkit-box-shadow: -1px -1px 17px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 17px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -1px 17px 4px rgba(0, 0, 0, 0.75);
+
+
+
+}
+
+#heading {
+    width: 100%;
+    background-color: #f97209;
+    padding: 5px 10px;
+}
+
+#heading h1 {
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+#calculator_body {
+    padding: 10px;
+    /* background-color: #212323; */
+}
+
+#calculator_body table {
+    border-collapse: collapse;
+
+}
+
+#calculator_body table tr td {
+    text-align: center;
+    padding: 8px 0px;
+}
+
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    border: 0;
+    outline: 0;
+    transition: 0.2s;
+}
+
+input[type="text"] {
+    width: 350px;
+    height: 50px;
+    text-align: right;
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+
+
+}
+
+
+input[type="button"]:hover {
+    color: white;
+    background: rgb(196, 58, 3);
+    box-shadow: -1px -3px 21px -2px rgba(196, 58, 3, 0.75);
+    -webkit-box-shadow: -1px -3px 21px -2px rgba(196, 58, 3, 0.75);
+    -moz-box-shadow: -1px -3px 21px -2px rgba(196, 58, 3, 0.75);
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:502px) {
+
+    .main_container {
+        width: 340px;
+    }
+}
