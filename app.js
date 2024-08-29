@@ -7,6 +7,7 @@ function Deleteme(){
 
 function claculator(newValue){
     document.getElementById('result').value += newValue;
+    
 };
 
 function Answer(){
